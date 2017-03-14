@@ -1,0 +1,22 @@
+{
+  "name": "async-brown-bag",
+  "version": "0.1.0",
+  "description": "Async / await brown bag",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index"
+  },
+  "author": "adslot",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.2.1"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "lodash": "^4.17.4",
+    "mysql-query-wrapper": "^1.0.0-alpha"
+  }
+}
