@@ -4,7 +4,7 @@
   "description": "Async / await brown bag",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index"
+    "start": "node_modules/.bin/babel-node index"
   },
   "author": "adslot",
   "license": "ISC",
